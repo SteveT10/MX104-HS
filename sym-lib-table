@@ -3,5 +3,6 @@
   (lib (name "random-keyboard-parts")(type "Legacy")(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name "ABLS-12MHZ-B4-T")(type "Legacy")(uri "${KIPRJMOD}/lib/ul_ABLS-12-000MHZ-B4-T/ABLS-12MHZ-B4-T.lib")(options "")(descr ""))
   (lib (name "Type-C")(type "Legacy")(uri "${KIPRJMOD}/Type-C.pretty/Type-C.lib")(options "")(descr ""))
-  (lib (name "IS31FL3743A-QULS4-TR")(type "Legacy")(uri "${KIPRJMOD}/lib/IS31FL3743A/IS31FL3743A-QULS4-TR.lib")(options "")(descr ""))
+  (lib (name "AAA3528SEEZGKQBKS")(type "Legacy")(uri "${KIPRJMOD}/lib/AAA3528SEEZGKQBKS/AAA3528SEEZGKQBKS.lib")(options "")(descr ""))
+  (lib (name "ul_IS31FL3741-QFLS4-TR")(type "Legacy")(uri "${KIPRJMOD}/lib/ul_IS31FL3741-QFLS4-TR/ul_IS31FL3741-QFLS4-TR.lib")(options "")(descr ""))
 )
