@@ -6,4 +6,5 @@
   (lib (name "Type-C")(type "Legacy")(uri "${KIPRJMOD}/Type-C.pretty/Type-C.lib")(options "")(descr ""))
   (lib (name "AAA3528SEEZGKQBKS")(type "Legacy")(uri "${KIPRJMOD}/lib/AAA3528SEEZGKQBKS/AAA3528SEEZGKQBKS.lib")(options "")(descr ""))
   (lib (name "ul_IS31FL3742A-QFLS4-TR")(type "Legacy")(uri "${KIPRJMOD}/lib/ul_IS31FL3742A-QFLS4-TR/ul_IS31FL3742A-QFLS4-TR.lib")(options "")(descr ""))
+  (lib (name "XZMDKCBDDG45S-9")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_XZMDKCBDDG45S-9/XZMDKCBDDG45S-9.kicad_sym")(options "")(descr ""))
 )
