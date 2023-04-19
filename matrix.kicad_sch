@@ -2055,7 +2055,7 @@
   (global_label "COL0" (shape input) (at 42.418 35.814 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 409ad24f-54f1-41de-a0ab-0c1c41f919d8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 42.3386 28.5628 90)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 42.418 28.0701 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
