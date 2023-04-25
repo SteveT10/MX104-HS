@@ -1502,6 +1502,7 @@
     )
   )
 
+
   (junction (at 26.924 169.672) (diameter 0) (color 0 0 0 0)
     (uuid 05bfce58-b9b4-4c1f-8780-4c0b24dafb95)
   )
@@ -4395,13 +4396,13 @@
     )
   )
 
-  (symbol (lib_id "Type-C:HRO-TYPE-C-31-M-12") (at 222.504 136.906 0) (mirror y) (unit 1)
+  (symbol (lib_id "Type-C:HRO-TYPE-C-31-M-12") (at 222.504 136.906 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10367bef-d558-4c98-8914-a1e328aedd79)
-    (property "Reference" "USB1" (at 228.219 116.332 0)
+    (property "Reference" "USB1" (at 216.789 116.332 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "HRO-TYPE-C-31-M-12" (at 228.219 120.142 0)
+    (property "Value" "HRO-TYPE-C-31-M-12" (at 216.789 120.142 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" (at 222.504 136.906 0)
