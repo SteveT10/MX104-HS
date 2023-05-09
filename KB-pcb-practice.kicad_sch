@@ -1250,7 +1250,7 @@
         )
       )
     )
-    (symbol "ul_IS31FL3742A-QFLS4-TR:IS31FL3742A-QFLS4-TR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "ul_IS31FL3742A-QFLS4-TR_custom:IS31FL3742A-QFLS4-TR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 20.32 10.16 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1275,7 +1275,7 @@
             (xy 7.62 -66.04)
             (xy 33.02 -66.04)
           )
-          (stroke (width 0.127) (type default))
+          (stroke (width 0.127) (type solid))
           (fill (type none))
         )
         (polyline
@@ -1283,7 +1283,7 @@
             (xy 7.62 5.08)
             (xy 7.62 -66.04)
           )
-          (stroke (width 0.127) (type default))
+          (stroke (width 0.127) (type solid))
           (fill (type none))
         )
         (polyline
@@ -1291,7 +1291,7 @@
             (xy 33.02 -66.04)
             (xy 33.02 5.08)
           )
-          (stroke (width 0.127) (type default))
+          (stroke (width 0.127) (type solid))
           (fill (type none))
         )
         (polyline
@@ -1299,7 +1299,7 @@
             (xy 33.02 5.08)
             (xy 7.62 5.08)
           )
-          (stroke (width 0.127) (type default))
+          (stroke (width 0.127) (type solid))
           (fill (type none))
         )
         (pin power_in line (at 0 0 0) (length 7.62)
@@ -1474,8 +1474,8 @@
           (name "CS28" (effects (font (size 1.4986 1.4986))))
           (number "48" (effects (font (size 1.4986 1.4986))))
         )
-        (pin unspecified line (at 40.64 0 180) (length 7.62)
-          (name "49" (effects (font (size 1.4986 1.4986))))
+        (pin power_in line (at 40.64 0 180) (length 7.62)
+          (name "GND" (effects (font (size 1.4986 1.4986))))
           (number "49" (effects (font (size 1.4986 1.4986))))
         )
         (pin unspecified line (at 0 -10.16 0) (length 7.62)
@@ -1501,6 +1501,7 @@
       )
     )
   )
+
 
   (junction (at 26.924 169.672) (diameter 0) (color 0 0 0 0)
     (uuid 05bfce58-b9b4-4c1f-8780-4c0b24dafb95)
@@ -4568,13 +4569,13 @@
     )
   )
 
-  (symbol (lib_id "ul_IS31FL3742A-QFLS4-TR:IS31FL3742A-QFLS4-TR") (at 131.445 33.655 0) (unit 1)
+  (symbol (lib_id "ul_IS31FL3742A-QFLS4-TR_custom:IS31FL3742A-QFLS4-TR") (at 131.445 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 373077cb-cf2e-4e46-b628-eff6821d7bf0)
-    (property "Reference" "U2" (at 151.765 22.733 0)
+    (property "Reference" "U2" (at 151.765 23.495 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "IS31FL3742A-QFLS4-TR" (at 151.765 26.543 0)
+    (property "Value" "IS31FL3742A-QFLS4-TR" (at 151.765 26.035 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "ul_IS31FL3742A-QFLS4-TR:IS31FL3742A-QFLS4-TR" (at 151.765 27.559 0)
@@ -4976,7 +4977,7 @@
   (symbol (lib_id "Device:R_Small") (at 206.502 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53855baf-e665-4313-a661-d54f51264770)
-    (property "Reference" "R10" (at 204.47 38.1 90)
+    (property "Reference" "R7" (at 204.47 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 201.93 38.1 90)
@@ -4993,7 +4994,7 @@
     (instances
       (project "KB-pcb-practice"
         (path "/806fdcd7-25b2-4878-addb-1faa319c0ab0"
-          (reference "R10") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -6673,7 +6674,7 @@
   (symbol (lib_id "Device:R_Small") (at 219.71 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfd3dd7b-672f-4083-a0fe-293397427f7b)
-    (property "Reference" "R13" (at 217.678 38.1 90)
+    (property "Reference" "R10" (at 217.678 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 215.138 38.1 90)
@@ -6690,7 +6691,7 @@
     (instances
       (project "KB-pcb-practice"
         (path "/806fdcd7-25b2-4878-addb-1faa319c0ab0"
-          (reference "R13") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -6823,13 +6824,13 @@
     )
   )
 
-  (symbol (lib_id "ul_IS31FL3742A-QFLS4-TR:IS31FL3742A-QFLS4-TR") (at 229.362 34.544 0) (unit 1)
+  (symbol (lib_id "ul_IS31FL3742A-QFLS4-TR_custom:IS31FL3742A-QFLS4-TR") (at 229.362 34.544 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebc2c930-4b78-40a7-8076-efa9676b6b26)
-    (property "Reference" "U4" (at 249.682 24.13 0)
+    (property "Reference" "U4" (at 249.682 24.384 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "IS31FL3742A-QFLS4-TR" (at 249.682 27.94 0)
+    (property "Value" "IS31FL3742A-QFLS4-TR" (at 249.682 26.924 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "ul_IS31FL3742A-QFLS4-TR:IS31FL3742A-QFLS4-TR" (at 249.682 28.448 0)
