@@ -1,6 +1,6 @@
 (footprint "IS31FL3742A-QFLS4-TR" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e72ca4bd-3f3d-45cd-8d2a-8e6aac248213)

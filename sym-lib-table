@@ -8,4 +8,5 @@
   (lib (name "ul_IS31FL3742A-QFLS4-TR")(type "Legacy")(uri "${KIPRJMOD}/lib/ul_IS31FL3742A-QFLS4-TR/ul_IS31FL3742A-QFLS4-TR.lib")(options "")(descr ""))
   (lib (name "XZMDKCBDDG45S-9")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_XZMDKCBDDG45S-9/XZMDKCBDDG45S-9.kicad_sym")(options "")(descr ""))
   (lib (name "ul_IS31FL3742A-QFLS4-TR_custom")(type "KiCad")(uri "${KIPRJMOD}/Custom/ul_IS31FL3742A-QFLS4-TR_custom.kicad_sym")(options "")(descr ""))
+  (lib (name "ul_IN-PI55TATPRPGPB")(type "Legacy")(uri "${KIPRJMOD}/lib/ul_IN-PI55TATPRPGPB/ul_IN-PI55TATPRPGPB.lib")(options "")(descr ""))
 )
