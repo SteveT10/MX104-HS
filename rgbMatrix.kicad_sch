@@ -1730,6 +1730,8 @@
     (uuid ffe79982-3e0e-4560-8e10-af1cb064cc27)
   )
 
+  (no_connect (at 337.82 353.06) (uuid c8f350c1-84ff-4f28-bd09-bbd66bc86798))
+
   (wire (pts (xy 190.4873 236.22) (xy 190.4873 297.1729))
     (stroke (width 0) (type default))
     (uuid 0010dcc4-c2e4-4a15-aa3e-fbd2710497af)
@@ -3053,10 +3055,6 @@
   (wire (pts (xy 330.2 49.53) (xy 330.2 39.37))
     (stroke (width 0) (type default))
     (uuid 5690ad86-8f36-4e3c-b487-bc753bcb7286)
-  )
-  (wire (pts (xy 337.82 353.06) (xy 337.82 363.22))
-    (stroke (width 0) (type default))
-    (uuid 56df458e-06df-4938-b673-1e106f90e857)
   )
   (wire (pts (xy 147.32 52.07) (xy 166.37 52.07))
     (stroke (width 0) (type default))
@@ -11344,32 +11342,6 @@
       (project "KB-pcb-practice"
         (path "/806fdcd7-25b2-4878-addb-1faa319c0ab0/10300069-2950-4b32-a92b-e51185ed69df"
           (reference "LED74") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 335.28 363.22 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ce0441a5-e7f1-44a8-a155-cd8216cffc78)
-    (property "Reference" "R4" (at 335.28 367.665 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "500" (at 335.28 365.125 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 335.28 363.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 335.28 363.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 627d7aa6-0a05-4d31-9f5f-d4634f96200c))
-    (pin "2" (uuid 65c365be-7d12-4c13-a9e3-b3a12403438e))
-    (instances
-      (project "KB-pcb-practice"
-        (path "/806fdcd7-25b2-4878-addb-1faa319c0ab0/10300069-2950-4b32-a92b-e51185ed69df"
-          (reference "R4") (unit 1)
         )
       )
     )
