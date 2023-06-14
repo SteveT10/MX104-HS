@@ -502,7 +502,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../Program Files/KiCad/7.0/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
