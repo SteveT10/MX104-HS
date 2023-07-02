@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9c6efc79-1f05-4b93-9c84-1b286404d3d5)
   )
-  (fp_text value "LED_IN-PI55TAT_INL" (at 0 0) (layer "F.SilkS")
+  (fp_text value "LED_IN-PI55TAT_INL" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d67f1029-2991-4302-8463-d043e575afa4)
   )

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IN-P32TRRRGB
+D Reverse Mount SMD LED 3528 PLCC Type, 3.5 X 2, 624nm Red, 525nm Green, 470nm Blue LED Indication, 4-SMD
+K
+F http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Reverse%20Mount/IN-P32TRRRGB_V1.2.pdf
+$ENDCMP
+#
+#End Doc Library
