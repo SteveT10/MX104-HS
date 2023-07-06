@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 2.3 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
+      (effects (font (size 1 1) (thickness 0.2) bold))
     (tstamp 4a3b95da-3849-42a3-9680-f9483678c74f)
   )
   (fp_text value "LED__RBG_1206_3216Metric_ReverseMount_Hole2.2x2.2mm" (at 0 1 unlocked) (layer "F.Fab")
@@ -38,31 +38,7 @@
   (fp_line (start 2.1 1.1) (end 2.1 -1.1)
     (stroke (width 0.05) (type default)) (layer "F.CrtYd") (tstamp f7e83bdd-a9ab-42b0-821e-82e3c3788226))
   (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers "F&B.Cu" "*.Mask") (tstamp faffb633-2947-40e8-9860-f8fa4030a3b6))
-  (pad "1" smd custom (at -1.66 -0.55) (size 0.48 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly
-        (pts
-          (xy 0.16 -0.35)
-          (xy 0.56 -0.35)
-          (xy 0.24 0.35)
-        )
-        (width 0) (fill yes))
-    ) (tstamp 7fbbebfe-1c1d-4223-9ee5-e47035a6af40))
-  (pad "2" smd custom (at 1.66 -0.55) (size 0.48 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly
-        (pts
-          (xy -0.16 -0.35)
-          (xy -0.56 -0.35)
-          (xy -0.24 0.35)
-        )
-        (width 0) (fill yes))
-    ) (tstamp 7713ac67-eb1a-4858-9a2a-7befa3caac9c))
-  (pad "3" smd custom (at -1.66 0.55) (size 0.48 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "1" smd custom (at -1.66 0.55) (size 0.48 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
@@ -74,7 +50,7 @@
         )
         (width 0) (fill yes))
     ) (tstamp 2f7ccfc3-de2b-47e7-8253-7adfc8404ae5))
-  (pad "4" smd custom (at 1.66 0.55) (size 0.48 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "2" smd custom (at 1.66 0.55) (size 0.48 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
@@ -86,4 +62,28 @@
         )
         (width 0) (fill yes))
     ) (tstamp 5cb582d6-cae9-4526-ab40-c701b3ae5011))
+  (pad "3" smd custom (at -1.66 -0.55) (size 0.48 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.16 -0.35)
+          (xy 0.56 -0.35)
+          (xy 0.24 0.35)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 7fbbebfe-1c1d-4223-9ee5-e47035a6af40))
+  (pad "4" smd custom (at 1.66 -0.55) (size 0.48 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.16 -0.35)
+          (xy -0.56 -0.35)
+          (xy -0.24 0.35)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 7713ac67-eb1a-4858-9a2a-7befa3caac9c))
 )
